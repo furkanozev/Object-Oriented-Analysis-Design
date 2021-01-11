@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="272.1360716700474" y="368.0">Flamethrower</node>
+    <node x="832.9445571331985" y="368.0">AutoRifle</node>
+    <node x="10.5" y="219.0">dec</node>
+    <node x="534.6360716700474" y="241.5">Accessories</node>
+    <node x="738.9445571331985" y="219.0">tor</node>
+    <node x="164.5" y="219.0">ora</node>
+    <node x="565.3860716700474" y="663.0">ReadyDemo</node>
+    <node x="604.1360716700475" y="368.0">RocketLauncher</node>
+    <node x="418.89181879648424" y="0.0">Suits</node>
+    <node x="450.13607167004744" y="368.0">Laser</node>
+    <node x="322.63607167004744" y="663.0">ManualDemo</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="RocketLauncher" target="Accessories">
+      <point x="-56.0" y="-72.5" />
+      <point x="632.1360716700475" y="348.0" />
+      <point x="619.6360716700474" y="348.0" />
+      <point x="17.0" y="27.0" />
+    </edge>
+    <edge source="ReadyDemo" target="Flamethrower">
+      <point x="-28.125" y="-27.0" />
+      <point x="612.2610716700474" y="543.0" />
+      <point x="390.6360716700474" y="543.0" />
+      <point x="39.5" y="72.5" />
+    </edge>
+    <edge source="ReadyDemo" target="dec">
+      <point x="-65.625" y="-27.0" />
+      <point x="574.7610716700474" y="563.0" />
+      <point x="96.88607167004744" y="563.0" />
+      <point x="96.88607167004744" y="348.0" />
+      <point x="111.0" y="348.0" />
+      <point x="33.5" y="49.5" />
+    </edge>
+    <edge source="Flamethrower" target="Accessories">
+      <point x="52.666666666666686" y="-72.5" />
+      <point x="403.8027383367141" y="348.0" />
+      <point x="551.6360716700474" y="348.0" />
+      <point x="-51.0" y="27.0" />
+    </edge>
+    <edge source="tor" target="Suits">
+      <point x="33.5" y="-49.5" />
+      <point x="839.4445571331985" y="149.0" />
+      <point x="525.3035835023666" y="149.0" />
+      <point x="39.41176470588226" y="49.5" />
+    </edge>
+    <edge source="ManualDemo" target="Flamethrower">
+      <point x="-9.375" y="-27.0" />
+      <point x="388.26107167004744" y="613.0" />
+      <point x="311.6360716700474" y="613.0" />
+      <point x="-39.5" y="72.5" />
+    </edge>
+    <edge source="dec" target="Suits">
+      <point x="-33.5" y="-49.5" />
+      <point x="44.0" y="139.0" />
+      <point x="430.715348208249" y="139.0" />
+      <point x="-55.176470588235304" y="49.5" />
+    </edge>
+    <edge source="ManualDemo" target="RocketLauncher">
+      <point x="28.125" y="-27.0" />
+      <point x="425.76107167004744" y="583.0" />
+      <point x="646.1360716700475" y="583.0" />
+      <point x="-42.0" y="72.5" />
+    </edge>
+    <edge source="ReadyDemo" target="Suits">
+      <point x="65.625" y="-27.0" />
+      <point x="706.0110716700474" y="643.0" />
+      <point x="1000.2577755240029" y="643.0" />
+      <point x="1000.2577755240029" y="119.0" />
+      <point x="548.9506423258961" y="119.0" />
+      <point x="63.05882352941177" y="49.5" />
+    </edge>
+    <edge source="AutoRifle" target="Accessories">
+      <point x="-45.0" y="-72.5" />
+      <point x="855.4445571331985" y="338.0" />
+      <point x="653.6360716700474" y="338.0" />
+      <point x="51.0" y="27.0" />
+    </edge>
+    <edge source="ReadyDemo" target="AutoRifle">
+      <point x="46.875" y="-27.0" />
+      <point x="687.2610716700474" y="633.0" />
+      <point x="934.1945571331985" y="633.0" />
+      <point x="33.75" y="72.5" />
+    </edge>
+    <edge source="ManualDemo" target="dec">
+      <point x="-46.875" y="-27.0" />
+      <point x="350.76107167004744" y="633.0" />
+      <point x="72.0" y="633.0" />
+      <point x="72.0" y="348.0" />
+      <point x="44.0" y="348.0" />
+      <point x="-33.5" y="49.5" />
+    </edge>
+    <edge source="Laser" target="Suits">
+      <point x="-44.66666666666663" y="-72.5" />
+      <point x="472.4694050033808" y="338.0" />
+      <point x="463.1034482758621" y="338.0" />
+      <point x="463.1034482758621" y="199.0" />
+      <point x="478.0094658553078" y="199.0" />
+      <point x="-7.882352941176464" y="49.5" />
+    </edge>
+    <edge source="ReadyDemo" target="tor">
+      <point x="28.125" y="-27.0" />
+      <point x="668.5110716700474" y="613.0" />
+      <point x="811.4445571331985" y="613.0" />
+      <point x="811.4445571331985" y="348.0" />
+      <point x="839.4445571331985" y="348.0" />
+      <point x="33.5" y="49.5" />
+    </edge>
+    <edge source="Flamethrower" target="Suits">
+      <point x="0.0" y="-72.5" />
+      <point x="351.1360716700474" y="348.0" />
+      <point x="337.25" y="348.0" />
+      <point x="337.25" y="189.0" />
+      <point x="470.1271129141313" y="189.0" />
+      <point x="-15.764705882352928" y="49.5" />
+    </edge>
+    <edge source="ManualDemo" target="Laser">
+      <point x="9.375" y="-27.0" />
+      <point x="407.01107167004744" y="573.0" />
+      <point x="483.63607167004744" y="573.0" />
+      <point x="-33.5" y="72.5" />
+    </edge>
+    <edge source="ReadyDemo" target="RocketLauncher">
+      <point x="9.375" y="-27.0" />
+      <point x="649.7610716700474" y="593.0" />
+      <point x="730.1360716700475" y="593.0" />
+      <point x="42.0" y="72.5" />
+    </edge>
+    <edge source="Accessories" target="Suits">
+      <point x="0.0" y="-27.0" />
+      <point x="602.6360716700474" y="189.0" />
+      <point x="493.7741717376607" y="189.0" />
+      <point x="7.882352941176464" y="49.5" />
+    </edge>
+    <edge source="ManualDemo" target="tor">
+      <point x="46.875" y="-27.0" />
+      <point x="444.51107167004744" y="603.0" />
+      <point x="800.4445571331985" y="603.0" />
+      <point x="800.4445571331985" y="348.0" />
+      <point x="772.4445571331985" y="348.0" />
+      <point x="-33.5" y="49.5" />
+    </edge>
+    <edge source="ReadyDemo" target="Laser">
+      <point x="-9.375" y="-27.0" />
+      <point x="631.0110716700474" y="533.0" />
+      <point x="550.6360716700474" y="533.0" />
+      <point x="33.5" y="72.5" />
+    </edge>
+    <edge source="ReadyDemo" target="ora">
+      <point x="-46.875" y="-27.0" />
+      <point x="593.5110716700474" y="553.0" />
+      <point x="237.0" y="553.0" />
+      <point x="237.0" y="348.0" />
+      <point x="265.0" y="348.0" />
+      <point x="33.5" y="49.5" />
+    </edge>
+    <edge source="RocketLauncher" target="Suits">
+      <point x="0.0" y="-72.5" />
+      <point x="688.1360716700475" y="348.0" />
+      <point x="697.6945571331984" y="348.0" />
+      <point x="697.6945571331984" y="179.0" />
+      <point x="501.6565246788373" y="179.0" />
+      <point x="15.764705882352985" y="49.5" />
+    </edge>
+    <edge source="ManualDemo" target="AutoRifle">
+      <point x="65.625" y="-27.0" />
+      <point x="463.26107167004744" y="623.0" />
+      <point x="866.6945571331985" y="623.0" />
+      <point x="-33.75" y="72.5" />
+    </edge>
+    <edge source="ManualDemo" target="Suits">
+      <point x="-65.625" y="-27.0" />
+      <point x="332.01107167004744" y="643.0" />
+      <point x="0.0" y="643.0" />
+      <point x="0.0" y="129.0" />
+      <point x="422.83299526707253" y="129.0" />
+      <point x="-63.05882352941177" y="49.5" />
+    </edge>
+    <edge source="ManualDemo" target="ora">
+      <point x="-28.125" y="-27.0" />
+      <point x="369.51107167004744" y="623.0" />
+      <point x="226.0" y="623.0" />
+      <point x="226.0" y="348.0" />
+      <point x="198.0" y="348.0" />
+      <point x="-33.5" y="49.5" />
+    </edge>
+    <edge source="ora" target="Suits">
+      <point x="-33.5" y="-49.5" />
+      <point x="198.0" y="159.0" />
+      <point x="446.4800540906019" y="159.0" />
+      <point x="-39.411764705882376" y="49.5" />
+    </edge>
+    <edge source="AutoRifle" target="Suits">
+      <point x="0.0" y="-72.5" />
+      <point x="900.4445571331985" y="348.0" />
+      <point x="917.4445571331985" y="348.0" />
+      <point x="917.4445571331985" y="139.0" />
+      <point x="533.1859364435431" y="139.0" />
+      <point x="47.29411764705884" y="49.5" />
+    </edge>
+    <edge source="Laser" target="Accessories">
+      <point x="44.66666666666663" y="-72.5" />
+      <point x="561.8027383367141" y="348.0" />
+      <point x="585.6360716700474" y="348.0" />
+      <point x="-17.0" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.5861601085481682" x="500.5" y="358.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>Project Files</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

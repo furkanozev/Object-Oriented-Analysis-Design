@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="PriorityProxyDataBase:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/PriorityProxyDataBase_jar</output-path>
+    <root id="archive" name="PriorityProxyDataBase.jar">
+      <element id="module-output" name="PriorityProxyDataBase" />
+    </root>
+  </artifact>
+</component>

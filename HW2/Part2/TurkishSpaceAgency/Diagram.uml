@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="252.00000000000003" y="259.0">AntiClockwiseSpiralIterator</node>
+    <node x="0.0" y="259.0">ClockwiseSpiralIterator</node>
+    <node x="240.20000000000002" y="0.0">SpiralIterator</node>
+    <node x="303.8" y="363.0">Main</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Main" target="ClockwiseSpiralIterator">
+      <point x="-50.0" y="-27.0" />
+      <point x="328.8" y="338.0" />
+      <point x="116.0" y="338.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="Main" target="SpiralIterator">
+      <point x="50.0" y="-27.0" />
+      <point x="428.8" y="338.0" />
+      <point x="526.5" y="338.0" />
+      <point x="526.5" y="229.0" />
+      <point x="384.20000000000005" y="229.0" />
+      <point x="64.0" y="104.5" />
+    </edge>
+    <edge source="ClockwiseSpiralIterator" target="SpiralIterator">
+      <point x="58.0" y="-27.0" />
+      <point x="174.0" y="239.0" />
+      <point x="288.20000000000005" y="239.0" />
+      <point x="-32.0" y="104.5" />
+    </edge>
+    <edge source="AntiClockwiseSpiralIterator" target="SpiralIterator">
+      <point x="-66.0" y="-27.0" />
+      <point x="318.0" y="239.0" />
+      <point x="320.20000000000005" y="239.0" />
+      <point x="0.0" y="104.5" />
+    </edge>
+    <edge source="Main" target="AntiClockwiseSpiralIterator">
+      <point x="0.0" y="-27.0" />
+      <point x="378.8" y="338.0" />
+      <point x="384.0" y="338.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="263.5" y="208.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>Project Files</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

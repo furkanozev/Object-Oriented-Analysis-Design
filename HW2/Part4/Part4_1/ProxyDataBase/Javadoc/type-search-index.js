@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","u":"allclasses-index.html"},{"p":"<Unnamed>","l":"DataBaseTable"},{"p":"<Unnamed>","l":"ITable"},{"p":"<Unnamed>","l":"Main"},{"p":"<Unnamed>","l":"ProxyDataBaseTable"},{"p":"<Unnamed>","l":"Task"}];updateSearchResults();

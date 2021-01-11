@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="642.031746031746" y="192.0">RedState</node>
+    <node x="367.19841269841277" y="546.0">TrafficLight</node>
+    <node x="110.03174603174608" y="170.0">GreenState</node>
+    <node x="650.8511904761906" y="0.0">State</node>
+    <node x="374.0317460317461" y="192.0">YellowState</node>
+    <node x="0.0" y="21.5">HiTech</node>
+    <node x="381.69841269841277" y="872.0">Main</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="GreenState" target="State">
+      <point x="61.0" y="-138.0" />
+      <point x="293.0317460317461" y="140.0" />
+      <point x="668.8511904761906" y="140.0" />
+      <point x="-72.0" y="60.0" />
+    </edge>
+    <edge source="GreenState" target="TrafficLight">
+      <point x="0.0" y="138.0" />
+      <point x="232.03174603174608" y="486.0" />
+      <point x="424.73412698412704" y="486.0" />
+      <point x="-31.964285714285722" y="-138.0" />
+    </edge>
+    <edge source="TrafficLight" target="GreenState">
+      <point x="-44.75" y="-138.0" />
+      <point x="411.94841269841277" y="496.0" />
+      <point x="150.6984126984127" y="496.0" />
+      <point x="-81.33333333333337" y="138.0" />
+    </edge>
+    <edge source="TrafficLight" target="State">
+      <point x="83.10714285714289" y="-138.0" />
+      <point x="539.8055555555557" y="526.0" />
+      <point x="897.531746031746" y="526.0" />
+      <point x="897.531746031746" y="140.0" />
+      <point x="812.8511904761906" y="140.0" />
+      <point x="72.0" y="60.0" />
+    </edge>
+    <edge source="GreenState" target="HiTech">
+      <point x="-61.0" y="-138.0" />
+      <point x="171.03174603174608" y="150.0" />
+      <point x="189.0" y="150.0" />
+      <point x="81.0" y="38.5" />
+    </edge>
+    <edge source="RedState" target="TrafficLight">
+      <point x="0.0" y="116.0" />
+      <point x="759.031746031746" y="496.0" />
+      <point x="501.44841269841277" y="496.0" />
+      <point x="44.75" y="-138.0" />
+    </edge>
+    <edge source="YellowState" target="State">
+      <point x="0.0" y="-116.0" />
+      <point x="498.0317460317461" y="150.0" />
+      <point x="704.8511904761906" y="150.0" />
+      <point x="-36.0" y="60.0" />
+    </edge>
+    <edge source="TrafficLight" target="RedState">
+      <point x="31.96428571428578" y="-138.0" />
+      <point x="488.66269841269855" y="486.0" />
+      <point x="681.031746031746" y="486.0" />
+      <point x="-78.0" y="116.0" />
+    </edge>
+    <edge source="Main" target="TrafficLight">
+      <point x="-37.5" y="-27.0" />
+      <point x="419.19841269841277" y="847.0" />
+      <point x="411.94841269841277" y="847.0" />
+      <point x="-44.75" y="138.0" />
+    </edge>
+    <edge source="RedState" target="State">
+      <point x="5.6843418860808015E-14" y="-116.0" />
+      <point x="759.0317460317461" y="150.0" />
+      <point x="740.8511904761906" y="150.0" />
+      <point x="0.0" y="60.0" />
+    </edge>
+    <edge source="YellowState" target="TrafficLight">
+      <point x="0.0" y="116.0" />
+      <point x="498.0317460317461" y="466.0" />
+      <point x="463.0912698412699" y="466.0" />
+      <point x="6.39285714285711" y="-138.0" />
+    </edge>
+    <edge source="TrafficLight" target="HiTech">
+      <point x="-83.10714285714289" y="-138.0" />
+      <point x="373.5912698412699" y="526.0" />
+      <point x="71.78174603174608" y="526.0" />
+      <point x="71.78174603174608" y="150.0" />
+      <point x="27.0" y="150.0" />
+      <point x="-81.0" y="38.5" />
+    </edge>
+    <edge source="TrafficLight" target="YellowState">
+      <point x="-6.392857142857167" y="-138.0" />
+      <point x="450.3055555555556" y="466.0" />
+      <point x="415.3650793650794" y="466.0" />
+      <point x="-82.66666666666667" y="116.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6595419847328244" x="290.5" y="317.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>Project Files</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

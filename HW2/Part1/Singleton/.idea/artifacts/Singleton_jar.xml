@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="Singleton:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Singleton_jar</output-path>
+    <root id="archive" name="Singleton.jar">
+      <element id="module-output" name="Singleton" />
+    </root>
+  </artifact>
+</component>

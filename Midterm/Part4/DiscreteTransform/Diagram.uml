@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="325.2" y="0.0">DiscreteTransform</node>
+    <node x="39.866666666666674" y="303.0">DiscreteFourierTransform</node>
+    <node x="0.0" y="77.0">ComplexNumber</node>
+    <node x="401.5777777777778" y="563.0">Main</node>
+    <node x="346.8666666666667" y="347.0">DiscreteCosineTransform</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="DiscreteFourierTransform" target="DiscreteTransform">
+      <point x="57.39999999999998" y="-105.0" />
+      <point x="240.76666666666665" y="273.0" />
+      <point x="348.1" y="273.0" />
+      <point x="-91.59999999999997" y="126.5" />
+    </edge>
+    <edge source="Main" target="DiscreteTransform">
+      <point x="50.000000000000014" y="-27.0" />
+      <point x="526.5777777777778" y="538.0" />
+      <point x="617.3666666666667" y="538.0" />
+      <point x="617.3666666666667" y="273.0" />
+      <point x="531.3" y="273.0" />
+      <point x="91.59999999999997" y="126.5" />
+    </edge>
+    <edge source="DiscreteFourierTransform" target="ComplexNumber">
+      <point x="-57.400000000000006" y="-105.0" />
+      <point x="125.9666666666667" y="283.0" />
+      <point x="116.0" y="283.0" />
+      <point x="-1.4210854715202004E-14" y="49.5" />
+    </edge>
+    <edge source="Main" target="DiscreteFourierTransform">
+      <point x="-50.0" y="-27.0" />
+      <point x="426.5777777777778" y="538.0" />
+      <point x="183.36666666666667" y="538.0" />
+      <point x="0.0" y="105.0" />
+    </edge>
+    <edge source="DiscreteCosineTransform" target="DiscreteTransform">
+      <point x="65.0" y="-61.0" />
+      <point x="541.8666666666667" y="283.0" />
+      <point x="485.5" y="283.0" />
+      <point x="45.80000000000001" y="126.5" />
+    </edge>
+    <edge source="Main" target="DiscreteCosineTransform">
+      <point x="0.0" y="-27.0" />
+      <point x="0.0" y="61.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="309.0" y="308.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>Project Files</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","u":"allclasses-index.html"},{"p":"<Unnamed>","l":"ComplexNumber"},{"p":"<Unnamed>","l":"DiscreteCosineTransform"},{"p":"<Unnamed>","l":"DiscreteFourierTransform"},{"p":"<Unnamed>","l":"DiscreteTransform"},{"p":"<Unnamed>","l":"Main"}];updateSearchResults();

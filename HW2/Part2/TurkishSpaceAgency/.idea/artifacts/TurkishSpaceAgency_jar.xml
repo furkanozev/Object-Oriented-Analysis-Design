@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="TurkishSpaceAgency:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/TurkishSpaceAgency_jar</output-path>
+    <root id="archive" name="TurkishSpaceAgency.jar">
+      <element id="module-output" name="TurkishSpaceAgency" />
+    </root>
+  </artifact>
+</component>

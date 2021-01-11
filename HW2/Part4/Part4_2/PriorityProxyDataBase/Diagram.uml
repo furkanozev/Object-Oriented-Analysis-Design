@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="84.04166666666667" y="736.0">Task</node>
+    <node x="0.0" y="171.0">DataBaseTable</node>
+    <node x="90.82465277777777" y="365.0">PriorityProxyDataBaseTable</node>
+    <node x="113.30902777777779" y="0.0">ITable</node>
+    <node x="35.187500000000014" y="940.0">Main</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="PriorityProxyDataBaseTable" target="DataBaseTable">
+      <point x="-95.66666666666669" y="-160.5" />
+      <point x="138.6579861111111" y="340.0" />
+      <point x="142.5" y="340.0" />
+      <point x="28.5" y="72.0" />
+    </edge>
+    <edge source="Main" target="PriorityProxyDataBaseTable">
+      <point x="-1.4210854715202004E-14" y="-27.0" />
+      <point x="110.1875" y="900.0" />
+      <point x="64.97916666666667" y="900.0" />
+      <point x="64.97916666666667" y="711.0" />
+      <point x="126.69965277777777" y="711.0" />
+      <point x="-107.625" y="160.5" />
+    </edge>
+    <edge source="DataBaseTable" target="ITable">
+      <point x="0.0" y="-72.0" />
+      <point x="114.0" y="146.0" />
+      <point x="170.30902777777777" y="146.0" />
+      <point x="-57.0" y="60.5" />
+    </edge>
+    <edge source="Main" target="DataBaseTable">
+      <point x="-30.000000000000014" y="-27.0" />
+      <point x="80.1875" y="910.0" />
+      <point x="49.3715277777778" y="910.0" />
+      <point x="49.3715277777778" y="340.0" />
+      <point x="85.5" y="340.0" />
+      <point x="-28.5" y="72.0" />
+    </edge>
+    <edge source="Main" target="Task">
+      <point x="29.999999999999986" y="-27.0" />
+      <point x="140.1875" y="910.0" />
+      <point x="243.04166666666669" y="910.0" />
+      <point x="0.0" y="72.0" />
+    </edge>
+    <edge source="PriorityProxyDataBaseTable" target="ITable">
+      <point x="95.66666666666669" y="-160.5" />
+      <point x="329.99131944444446" y="340.0" />
+      <point x="319.5" y="340.0" />
+      <point x="319.5" y="146.0" />
+      <point x="284.30902777777777" y="146.0" />
+      <point x="57.0" y="60.5" />
+    </edge>
+    <edge source="Task" target="PriorityProxyDataBaseTable">
+      <point x="-79.5" y="-72.0" />
+      <point x="163.54166666666669" y="711.0" />
+      <point x="198.44965277777777" y="711.0" />
+      <point x="-35.875" y="160.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6607495069033531" x="206.5" y="496.99999999999994" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>Project Files</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="27.75" y="127.0">TurboPaymentConcrete</node>
+    <node x="0.0" y="0.0">TurboPayment</node>
+    <node x="526.4479166666666" y="0.0">ModernPayment</node>
+    <node x="317.75" y="104.0">ModernPaymentAdapter</node>
+    <node x="381.75" y="254.0">Main</node>
+    <node x="615.75" y="127.0">ModernPaymentConcrete</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ModernPaymentAdapter" target="TurboPayment">
+      <point x="-92.66666666666669" y="-50.0" />
+      <point x="364.0833333333333" y="84.0" />
+      <point x="225.0" y="84.0" />
+      <point x="90.0" y="27.0" />
+    </edge>
+    <edge source="Main" target="ModernPayment">
+      <point x="60.0" y="-27.0" />
+      <point x="516.75" y="234.0" />
+      <point x="855.25" y="234.0" />
+      <point x="855.25" y="74.0" />
+      <point x="726.8229166666666" y="74.0" />
+      <point x="85.87499999999997" y="27.0" />
+    </edge>
+    <edge source="Main" target="TurboPayment">
+      <point x="-60.0" y="-27.0" />
+      <point x="396.75" y="234.0" />
+      <point x="17.25" y="234.0" />
+      <point x="17.25" y="84.0" />
+      <point x="45.0" y="84.0" />
+      <point x="-90.0" y="27.0" />
+    </edge>
+    <edge source="TurboPaymentConcrete" target="TurboPayment">
+      <point x="0.0" y="-27.0" />
+      <point x="162.75" y="84.0" />
+      <point x="135.0" y="84.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="ModernPaymentAdapter" target="ModernPayment">
+      <point x="92.66666666666669" y="-50.0" />
+      <point x="549.4166666666667" y="84.0" />
+      <point x="612.3229166666666" y="84.0" />
+      <point x="-28.625" y="27.0" />
+    </edge>
+    <edge source="Main" target="TurboPaymentConcrete">
+      <point x="-30.0" y="-27.0" />
+      <point x="426.75" y="224.0" />
+      <point x="162.75" y="224.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="Main" target="ModernPaymentConcrete">
+      <point x="30.0" y="-27.0" />
+      <point x="486.75" y="224.0" />
+      <point x="730.25" y="224.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="ModernPaymentConcrete" target="ModernPayment">
+      <point x="0.0" y="-27.0" />
+      <point x="730.25" y="84.0" />
+      <point x="669.5729166666666" y="84.0" />
+      <point x="28.625" y="27.0" />
+    </edge>
+    <edge source="Main" target="ModernPaymentAdapter">
+      <point x="0.0" y="-27.0" />
+      <point x="0.0" y="50.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="414.5" y="154.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>Project Files</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

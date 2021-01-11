@@ -1,0 +1,826 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="301.5769230769238" y="462.5">GlobalCase</node>
+    <node x="20.576923076923777" y="462.5">EUCase</node>
+    <node x="3743.068848020914" y="462.5">EUBattery</node>
+    <node x="3225.798523685054" y="462.5">TurkeyDisplay</node>
+    <node x="2338.154292915823" y="2160.0">TurkeyMarket</node>
+    <node x="3900.343406593409" y="0.0">Battery</node>
+    <node x="1935.7376262491566" y="2160.0">EUMarket</node>
+    <node x="1979.0673076923097" y="0.0">Camera</node>
+    <node x="141.57692307692378" y="462.5">TurkeyCase</node>
+    <node x="3559.068848020914" y="462.5">GlobalDisplay</node>
+    <node x="2653.279292915823" y="1807.5">Markets</node>
+    <node x="1981.2518203883508" y="396.0">PhoneComponentFactory</node>
+    <node x="573.8165608663205" y="0.0">Storage</node>
+    <node x="1816.2518203883508" y="462.5">TurkeyCamera</node>
+    <node x="2294.029292915823" y="1741.0">MaximumEffortModel</node>
+    <node x="471.653846153848" y="462.5">EUStorage</node>
+    <node x="4776.299617251684" y="1285.5">Models</node>
+    <node x="4078.145771097838" y="462.5">GlobalBattery</node>
+    <node x="1192.0292929158234" y="1263.5">EUComponentFactory</node>
+    <node x="4603.299617251684" y="462.5">GlobalCPU_RAM</node>
+    <node x="4251.1457710978375" y="462.5">EUCPU_RAM</node>
+    <node x="612.653846153848" y="462.5">TurkeyStorage</node>
+    <node x="102.3998919769574" y="0.0">Case</node>
+    <node x="2919.798523685054" y="462.5">GlobalCamera</node>
+    <node x="2198.4938097905338" y="1153.0">Phone</node>
+    <node x="4444.708791208794" y="0.0">CPU_RAM</node>
+    <node x="796.6538461538482" y="462.5">GlobalStorage</node>
+    <node x="3084.798523685054" y="462.5">EUDisplay</node>
+    <node x="1972.0292929158234" y="1741.0">I_I_Aman_IflasModel</node>
+    <node x="2921.048523685054" y="1263.5">GlobalComponentFactory</node>
+    <node x="1409.0292929158234" y="1263.5">TurkeyComponentFactory</node>
+    <node x="2556.154292915823" y="2160.0">GlobalMarket</node>
+    <node x="1665.0292929158234" y="1741.0">IflasDeluxeModel</node>
+    <node x="1680.2518203883508" y="462.5">EUCamera</node>
+    <node x="2665.841792915823" y="2297.0">Main</node>
+    <node x="4399.1457710978375" y="462.5">TurkeyCPU_RAM</node>
+    <node x="2632.804945054947" y="0.0">Display</node>
+    <node x="3884.068848020914" y="462.5">TurkeyBattery</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="GlobalStorage" target="Storage">
+      <point x="-38.0" y="-27.0" />
+      <point x="834.6538461538482" y="336.0" />
+      <point x="669.5473300970896" y="336.0" />
+      <point x="30.230769230769056" y="38.0" />
+    </edge>
+    <edge source="GlobalComponentFactory" target="CPU_RAM">
+      <point x="88.0" y="-93.5" />
+      <point x="3121.048523685054" y="1123.0" />
+      <point x="4592.799617251684" y="1123.0" />
+      <point x="4592.799617251684" y="336.0" />
+      <point x="4540.439560439563" y="336.0" />
+      <point x="30.230769230769283" y="38.0" />
+    </edge>
+    <edge source="MaximumEffortModel" target="PhoneComponentFactory">
+      <point x="-103.66666666666652" y="-104.5" />
+      <point x="2345.862626249157" y="1681.0" />
+      <point x="2187.9938097905338" y="1681.0" />
+      <point x="2187.9938097905338" y="893.0" />
+      <point x="2122.4825896191196" y="893.0" />
+      <point x="33.230769230769056" y="93.5" />
+    </edge>
+    <edge source="EUMarket" target="IflasDeluxeModel">
+      <point x="-37.125" y="-38.5" />
+      <point x="1997.6126262491566" y="2120.0" />
+      <point x="1712.8626262491566" y="2120.0" />
+      <point x="-95.66666666666674" y="104.5" />
+    </edge>
+    <edge source="I_I_Aman_IflasModel" target="Phone">
+      <point x="0.0" y="-104.5" />
+      <point x="2123.029292915823" y="1711.0" />
+      <point x="2263.4938097905338" y="1711.0" />
+      <point x="-78.0" y="204.0" />
+    </edge>
+    <edge source="TurkeyMarket" target="Phone">
+      <point x="37.125" y="-38.5" />
+      <point x="2474.279292915823" y="2060.0" />
+      <point x="2629.154292915823" y="2060.0" />
+      <point x="2629.154292915823" y="1641.0" />
+      <point x="2393.4938097905338" y="1641.0" />
+      <point x="52.0" y="204.0" />
+    </edge>
+    <edge source="GlobalComponentFactory" target="GlobalDisplay">
+      <point x="40.0" y="-93.5" />
+      <point x="3073.048523685054" y="973.0" />
+      <point x="3635.068848020914" y="973.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="GlobalMarket" target="Phone">
+      <point x="-12.375" y="-38.5" />
+      <point x="2642.779292915823" y="1631.0" />
+      <point x="2419.4938097905338" y="1631.0" />
+      <point x="78.0" y="204.0" />
+    </edge>
+    <edge source="EUComponentFactory" target="CPU_RAM">
+      <point x="91.46428571428578" y="-93.5" />
+      <point x="1381.9935786301091" y="1073.0" />
+      <point x="4388.6457710978375" y="1073.0" />
+      <point x="4388.6457710978375" y="366.0" />
+      <point x="4479.978021978024" y="366.0" />
+      <point x="-30.230769230769283" y="38.0" />
+    </edge>
+    <edge source="Markets" target="CPU_RAM">
+      <point x="61.875" y="-38.0" />
+      <point x="2814.154292915823" y="1701.0" />
+      <point x="4765.799617251684" y="1701.0" />
+      <point x="4765.799617251684" y="306.0" />
+      <point x="4570.670329670333" y="306.0" />
+      <point x="60.46153846153834" y="38.0" />
+    </edge>
+    <edge source="TurkeyComponentFactory" target="TurkeyStorage">
+      <point x="-56.0" y="-93.5" />
+      <point x="1465.0292929158234" y="743.0" />
+      <point x="688.653846153848" y="743.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="TurkeyComponentFactory" target="Battery">
+      <point x="56.0" y="-93.5" />
+      <point x="1577.0292929158234" y="1003.0" />
+      <point x="3873.568848020914" y="1003.0" />
+      <point x="3873.568848020914" y="316.0" />
+      <point x="3945.689560439563" y="316.0" />
+      <point x="-20.153846153845734" y="38.0" />
+    </edge>
+    <edge source="Phone" target="CPU_RAM">
+      <point x="110.0" y="-204.0" />
+      <point x="2451.4938097905338" y="1103.0" />
+      <point x="4571.722694174761" y="1103.0" />
+      <point x="4571.722694174761" y="356.0" />
+      <point x="4520.285714285717" y="356.0" />
+      <point x="10.076923076923094" y="38.0" />
+    </edge>
+    <edge source="TurkeyComponentFactory" target="Storage">
+      <point x="-72.0" y="-93.5" />
+      <point x="1449.0292929158234" y="753.0" />
+      <point x="602.153846153848" y="753.0" />
+      <point x="602.153846153848" y="376.0" />
+      <point x="619.1627147124743" y="376.0" />
+      <point x="-20.15384615384619" y="38.0" />
+    </edge>
+    <edge source="Markets" target="Case">
+      <point x="-86.625" y="-38.0" />
+      <point x="2665.654292915823" y="1621.0" />
+      <point x="0.0" y="1621.0" />
+      <point x="0.0" y="336.0" />
+      <point x="107.43835351541884" y="336.0" />
+      <point x="-60.46153846153857" y="38.0" />
+    </edge>
+    <edge source="Main" target="EUMarket">
+      <point x="-62.5" y="-27.0" />
+      <point x="2678.341792915823" y="2277.0" />
+      <point x="2034.7376262491566" y="2277.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="TurkeyComponentFactory" target="PhoneComponentFactory">
+      <point x="8.0" y="-93.5" />
+      <point x="1529.0292929158234" y="853.0" />
+      <point x="2039.405666542197" y="853.0" />
+      <point x="-49.84615384615381" y="93.5" />
+    </edge>
+    <edge source="EUMarket" target="I_I_Aman_IflasModel">
+      <point x="-12.375" y="-38.5" />
+      <point x="-100.66666666666674" y="104.5" />
+    </edge>
+    <edge source="GlobalCamera" target="Camera">
+      <point x="36.0" y="-27.0" />
+      <point x="3027.798523685054" y="226.0" />
+      <point x="2094.9519230769247" y="226.0" />
+      <point x="50.384615384615245" y="38.0" />
+    </edge>
+    <edge source="MaximumEffortModel" target="Phone">
+      <point x="103.66666666666652" y="-104.5" />
+      <point x="2553.19595958249" y="1661.0" />
+      <point x="2341.4938097905338" y="1661.0" />
+      <point x="0.0" y="204.0" />
+    </edge>
+    <edge source="TurkeyCPU_RAM" target="CPU_RAM">
+      <point x="38.0" y="-27.0" />
+      <point x="4513.1457710978375" y="376.0" />
+      <point x="4500.131868131871" y="376.0" />
+      <point x="-10.076923076923094" y="38.0" />
+    </edge>
+    <edge source="EUComponentFactory" target="Battery">
+      <point x="49.25" y="-93.5" />
+      <point x="1339.7792929158234" y="983.0" />
+      <point x="3732.568848020914" y="983.0" />
+      <point x="3732.568848020914" y="286.0" />
+      <point x="3915.4587912087936" y="286.0" />
+      <point x="-50.384615384615245" y="38.0" />
+    </edge>
+    <edge source="TurkeyMarket" target="Models">
+      <point x="86.625" y="-38.5" />
+      <point x="2523.779292915823" y="2130.0" />
+      <point x="4849.399617251684" y="2130.0" />
+      <point x="4849.399617251684" y="1701.0" />
+      <point x="4860.799617251684" y="1701.0" />
+      <point x="0.0" y="71.5" />
+    </edge>
+    <edge source="PhoneComponentFactory" target="Storage">
+      <point x="-54.0" y="-93.5" />
+      <point x="2035.2518203883508" y="286.0" />
+      <point x="699.7780993278591" y="286.0" />
+      <point x="60.46153846153857" y="38.0" />
+    </edge>
+    <edge source="EUComponentFactory" target="Case">
+      <point x="-91.46428571428578" y="-93.5" />
+      <point x="1199.0650072015376" y="1133.0" />
+      <point x="10.076923076923777" y="1133.0" />
+      <point x="10.076923076923777" y="346.0" />
+      <point x="117.51527659234216" y="346.0" />
+      <point x="-50.384615384615245" y="38.0" />
+    </edge>
+    <edge source="EUComponentFactory" target="EUCPU_RAM">
+      <point x="77.39285714285734" y="-93.5" />
+      <point x="1367.9221500586807" y="1063.0" />
+      <point x="4314.6457710978375" y="1063.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="Markets" target="Battery">
+      <point x="37.125" y="-38.0" />
+      <point x="2789.404292915823" y="1691.0" />
+      <point x="4240.6457710978375" y="1691.0" />
+      <point x="4240.6457710978375" y="266.0" />
+      <point x="4026.304945054947" y="266.0" />
+      <point x="60.46153846153811" y="38.0" />
+    </edge>
+    <edge source="GlobalComponentFactory" target="Case">
+      <point x="-88.0" y="-93.5" />
+      <point x="2945.048523685054" y="653.0" />
+      <point x="440.07692307692423" y="653.0" />
+      <point x="440.07692307692423" y="316.0" />
+      <point x="218.2845073615731" y="316.0" />
+      <point x="50.3846153846157" y="38.0" />
+    </edge>
+    <edge source="GlobalBattery" target="Battery">
+      <point x="-38.0" y="-27.0" />
+      <point x="4116.1457710978375" y="286.0" />
+      <point x="4006.1510989011012" y="286.0" />
+      <point x="40.30769230769238" y="38.0" />
+    </edge>
+    <edge source="TurkeyMarket" target="PhoneComponentFactory">
+      <point x="-61.875" y="-38.5" />
+      <point x="2375.279292915823" y="2020.0" />
+      <point x="1654.5292929158234" y="2020.0" />
+      <point x="1654.5292929158234" y="873.0" />
+      <point x="2072.6364357729663" y="873.0" />
+      <point x="-16.615384615384755" y="93.5" />
+    </edge>
+    <edge source="EUCase" target="Case">
+      <point x="25.0" y="-27.0" />
+      <point x="95.57692307692378" y="366.0" />
+      <point x="137.66912274618835" y="366.0" />
+      <point x="-30.230769230769056" y="38.0" />
+    </edge>
+    <edge source="EUMarket" target="MaximumEffortModel">
+      <point x="12.375" y="-38.5" />
+      <point x="2047.1126262491566" y="2040.0" />
+      <point x="2345.862626249157" y="2040.0" />
+      <point x="-103.66666666666652" y="104.5" />
+    </edge>
+    <edge source="EUMarket" target="PhoneComponentFactory">
+      <point x="-61.875" y="-38.5" />
+      <point x="1972.8626262491566" y="2130.0" />
+      <point x="1643.5292929158234" y="2130.0" />
+      <point x="1643.5292929158234" y="863.0" />
+      <point x="2056.0210511575815" y="863.0" />
+      <point x="-33.230769230769056" y="93.5" />
+    </edge>
+    <edge source="Phone" target="PhoneComponentFactory">
+      <point x="-44.0" y="-204.0" />
+      <point x="2297.4938097905338" y="693.0" />
+      <point x="2139.0979742345044" y="693.0" />
+      <point x="49.84615384615381" y="93.5" />
+    </edge>
+    <edge source="Phone" target="Case">
+      <point x="-110.0" y="-204.0" />
+      <point x="2231.4938097905338" y="723.0" />
+      <point x="291.0769230769238" y="723.0" />
+      <point x="291.0769230769238" y="346.0" />
+      <point x="188.0537381308036" y="346.0" />
+      <point x="20.15384615384619" y="38.0" />
+    </edge>
+    <edge source="PhoneComponentFactory" target="Battery">
+      <point x="54.0" y="-93.5" />
+      <point x="2143.251820388351" y="276.0" />
+      <point x="3905.3818681318708" y="276.0" />
+      <point x="-60.46153846153811" y="38.0" />
+    </edge>
+    <edge source="TurkeyComponentFactory" target="Display">
+      <point x="40.0" y="-93.5" />
+      <point x="1561.0292929158234" y="933.0" />
+      <point x="3388.298523685054" y="933.0" />
+      <point x="3388.298523685054" y="156.0" />
+      <point x="2698.304945054947" y="156.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="Phone" target="Display">
+      <point x="22.0" y="-204.0" />
+      <point x="2363.4938097905338" y="943.0" />
+      <point x="3398.375446761977" y="943.0" />
+      <point x="3398.375446761977" y="146.0" />
+      <point x="2708.38186813187" y="146.0" />
+      <point x="10.076923076923066" y="38.0" />
+    </edge>
+    <edge source="GlobalCPU_RAM" target="CPU_RAM">
+      <point x="38.0" y="-27.0" />
+      <point x="4717.299617251684" y="316.0" />
+      <point x="4560.593406593409" y="316.0" />
+      <point x="50.38461538461536" y="38.0" />
+    </edge>
+    <edge source="IflasDeluxeModel" target="Phone">
+      <point x="95.66666666666674" y="-104.5" />
+      <point x="1904.19595958249" y="1701.0" />
+      <point x="2237.4938097905338" y="1701.0" />
+      <point x="-104.0" y="204.0" />
+    </edge>
+    <edge source="GlobalMarket" target="Markets">
+      <point x="12.375" y="-38.5" />
+      <point x="2667.529292915823" y="2090.0" />
+      <point x="2777.029292915823" y="2090.0" />
+      <point x="24.75" y="38.0" />
+    </edge>
+    <edge source="EUComponentFactory" target="Camera">
+      <point x="-35.17857142857156" y="-93.5" />
+      <point x="1255.3507214872518" y="783.0" />
+      <point x="1669.7518203883508" y="783.0" />
+      <point x="1669.7518203883508" y="326.0" />
+      <point x="1994.1826923076944" y="326.0" />
+      <point x="-50.384615384615245" y="38.0" />
+    </edge>
+    <edge source="TurkeyMarket" target="IflasDeluxeModel">
+      <point x="-37.125" y="-38.5" />
+      <point x="2400.029292915823" y="2010.0" />
+      <point x="1808.5292929158234" y="2010.0" />
+      <point x="0.0" y="104.5" />
+    </edge>
+    <edge source="GlobalComponentFactory" target="GlobalCPU_RAM">
+      <point x="104.0" y="-93.5" />
+      <point x="3137.048523685054" y="1133.0" />
+      <point x="4679.299617251684" y="1133.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="IflasDeluxeModel" target="PhoneComponentFactory">
+      <point x="-95.66666666666674" y="-104.5" />
+      <point x="1712.8626262491566" y="1681.0" />
+      <point x="1972.033591610658" y="1681.0" />
+      <point x="1972.033591610658" y="883.0" />
+      <point x="2089.251820388351" y="883.0" />
+      <point x="0.0" y="93.5" />
+    </edge>
+    <edge source="GlobalComponentFactory" target="GlobalBattery">
+      <point x="72.0" y="-93.5" />
+      <point x="3105.048523685054" y="1053.0" />
+      <point x="4154.1457710978375" y="1053.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="GlobalComponentFactory" target="GlobalStorage">
+      <point x="-72.0" y="-93.5" />
+      <point x="2961.048523685054" y="643.0" />
+      <point x="872.6538461538482" y="643.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="TurkeyDisplay" target="Display">
+      <point x="38.0" y="-27.0" />
+      <point x="3339.798523685054" y="166.0" />
+      <point x="2688.228021978024" y="166.0" />
+      <point x="-10.076923076923094" y="38.0" />
+    </edge>
+    <edge source="EUComponentFactory" target="Storage">
+      <point x="-63.32142857142844" y="-93.5" />
+      <point x="1227.207864344395" y="1113.0" />
+      <point x="461.153846153848" y="1113.0" />
+      <point x="461.153846153848" y="346.0" />
+      <point x="588.9319454817053" y="346.0" />
+      <point x="-50.384615384615245" y="38.0" />
+    </edge>
+    <edge source="PhoneComponentFactory" target="Display">
+      <point x="18.0" y="-93.5" />
+      <point x="2107.251820388351" y="266.0" />
+      <point x="2637.8434065934084" y="266.0" />
+      <point x="-60.46153846153845" y="38.0" />
+    </edge>
+    <edge source="TurkeyCase" target="Case">
+      <point x="-32.0" y="-27.0" />
+      <point x="173.57692307692378" y="376.0" />
+      <point x="157.82296890003454" y="376.0" />
+      <point x="-10.076923076922867" y="38.0" />
+    </edge>
+    <edge source="Main" target="Markets">
+      <point x="12.5" y="-27.0" />
+      <point x="2753.341792915823" y="2257.0" />
+      <point x="2826.529292915823" y="2257.0" />
+      <point x="74.25" y="38.0" />
+    </edge>
+    <edge source="GlobalMarket" target="PhoneComponentFactory">
+      <point x="37.125" y="-38.5" />
+      <point x="2692.279292915823" y="2100.0" />
+      <point x="2861.779292915823" y="2100.0" />
+      <point x="2861.779292915823" y="673.0" />
+      <point x="2155.713358849889" y="673.0" />
+      <point x="66.46153846153857" y="93.5" />
+    </edge>
+    <edge source="GlobalMarket" target="MaximumEffortModel">
+      <point x="-37.125" y="-38.5" />
+      <point x="2618.029292915823" y="1970.0" />
+      <point x="2553.19595958249" y="1970.0" />
+      <point x="103.66666666666652" y="104.5" />
+    </edge>
+    <edge source="GlobalComponentFactory" target="GlobalCamera">
+      <point x="-8.0" y="-93.5" />
+      <point x="3025.048523685054" y="603.0" />
+      <point x="2991.798523685054" y="603.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="PhoneComponentFactory" target="CPU_RAM">
+      <point x="90.0" y="-93.5" />
+      <point x="2179.251820388351" y="336.0" />
+      <point x="4449.7472527472555" y="336.0" />
+      <point x="-60.46153846153845" y="38.0" />
+    </edge>
+    <edge source="EUMarket" target="EUComponentFactory">
+      <point x="-86.625" y="-38.5" />
+      <point x="1948.1126262491566" y="2140.0" />
+      <point x="1290.5292929158234" y="2140.0" />
+      <point x="0.0" y="93.5" />
+    </edge>
+    <edge source="TurkeyComponentFactory" target="TurkeyCase">
+      <point x="-88.0" y="-93.5" />
+      <point x="1433.0292929158234" y="763.0" />
+      <point x="205.57692307692378" y="763.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="TurkeyComponentFactory" target="CPU_RAM">
+      <point x="104.0" y="-93.5" />
+      <point x="1625.0292929158234" y="1093.0" />
+      <point x="4561.6457710978375" y="1093.0" />
+      <point x="4561.6457710978375" y="366.0" />
+      <point x="4510.208791208794" y="366.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="GlobalComponentFactory" target="PhoneComponentFactory">
+      <point x="-40.0" y="-93.5" />
+      <point x="2993.048523685054" y="623.0" />
+      <point x="2172.328743465274" y="623.0" />
+      <point x="83.07692307692287" y="93.5" />
+    </edge>
+    <edge source="EUComponentFactory" target="Display">
+      <point x="35.17857142857156" y="-93.5" />
+      <point x="1325.707864344395" y="913.0" />
+      <point x="3215.298523685054" y="913.0" />
+      <point x="3215.298523685054" y="186.0" />
+      <point x="2668.074175824178" y="186.0" />
+      <point x="-30.230769230769226" y="38.0" />
+    </edge>
+    <edge source="TurkeyMarket" target="Markets">
+      <point x="61.875" y="-38.5" />
+      <point x="2499.029292915823" y="2080.0" />
+      <point x="2727.529292915823" y="2080.0" />
+      <point x="-24.75" y="38.0" />
+    </edge>
+    <edge source="EUStorage" target="Storage">
+      <point x="-30.0" y="-27.0" />
+      <point x="501.653846153848" y="356.0" />
+      <point x="599.0088685586281" y="356.0" />
+      <point x="-40.30769230769238" y="38.0" />
+    </edge>
+    <edge source="Markets" target="Models">
+      <point x="86.625" y="-38.0" />
+      <point x="2838.904292915823" y="1711.0" />
+      <point x="4793.199617251685" y="1711.0" />
+      <point x="-67.59999999999991" y="71.5" />
+    </edge>
+    <edge source="TurkeyComponentFactory" target="Case">
+      <point x="-104.0" y="-93.5" />
+      <point x="1417.0292929158234" y="773.0" />
+      <point x="131.07692307692378" y="773.0" />
+      <point x="131.07692307692378" y="376.0" />
+      <point x="147.74604582311122" y="376.0" />
+      <point x="-20.15384615384619" y="38.0" />
+    </edge>
+    <edge source="Main" target="Phone">
+      <point x="37.5" y="-27.0" />
+      <point x="2778.341792915823" y="2267.0" />
+      <point x="2971.798523685054" y="2267.0" />
+      <point x="2971.798523685054" y="1581.0" />
+      <point x="2471.4938097905338" y="1581.0" />
+      <point x="130.0" y="204.0" />
+    </edge>
+    <edge source="Phone" target="Storage">
+      <point x="-88.0" y="-204.0" />
+      <point x="2253.4938097905338" y="713.0" />
+      <point x="775.153846153848" y="713.0" />
+      <point x="775.153846153848" y="356.0" />
+      <point x="649.3934839432434" y="356.0" />
+      <point x="10.076923076922867" y="38.0" />
+    </edge>
+    <edge source="PhoneComponentFactory" target="Case">
+      <point x="-90.0" y="-93.5" />
+      <point x="1999.2518203883508" y="296.0" />
+      <point x="228.36143043849597" y="296.0" />
+      <point x="60.46153846153857" y="38.0" />
+    </edge>
+    <edge source="Markets" target="Display">
+      <point x="12.375" y="-38.0" />
+      <point x="2764.654292915823" y="1681.0" />
+      <point x="3721.568848020914" y="1681.0" />
+      <point x="3721.568848020914" y="96.0" />
+      <point x="2758.7664835164856" y="96.0" />
+      <point x="60.46153846153845" y="38.0" />
+    </edge>
+    <edge source="TurkeyBattery" target="Battery">
+      <point x="38.0" y="-27.0" />
+      <point x="3998.068848020914" y="326.0" />
+      <point x="3965.843406593409" y="326.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="EUBattery" target="Battery">
+      <point x="-30.0" y="-27.0" />
+      <point x="3773.068848020914" y="296.0" />
+      <point x="3925.5357142857165" y="296.0" />
+      <point x="-40.30769230769238" y="38.0" />
+    </edge>
+    <edge source="GlobalMarket" target="I_I_Aman_IflasModel">
+      <point x="-61.875" y="-38.5" />
+      <point x="2593.279292915823" y="1980.0" />
+      <point x="2223.69595958249" y="1980.0" />
+      <point x="100.66666666666652" y="104.5" />
+    </edge>
+    <edge source="GlobalMarket" target="GlobalComponentFactory">
+      <point x="61.875" y="-38.5" />
+      <point x="2717.029292915823" y="2110.0" />
+      <point x="3033.048523685054" y="2110.0" />
+      <point x="0.0" y="93.5" />
+    </edge>
+    <edge source="GlobalComponentFactory" target="Display">
+      <point x="24.0" y="-93.5" />
+      <point x="3057.048523685054" y="963.0" />
+      <point x="3548.568848020914" y="963.0" />
+      <point x="3548.568848020914" y="126.0" />
+      <point x="2728.535714285716" y="126.0" />
+      <point x="30.230769230769226" y="38.0" />
+    </edge>
+    <edge source="EUComponentFactory" target="EUDisplay">
+      <point x="21.107142857142662" y="-93.5" />
+      <point x="1311.636435772966" y="903.0" />
+      <point x="3144.798523685054" y="903.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="Phone" target="Battery">
+      <point x="66.0" y="-204.0" />
+      <point x="2407.4938097905338" y="1023.0" />
+      <point x="4046.568848020914" y="1023.0" />
+      <point x="4046.568848020914" y="316.0" />
+      <point x="3975.9203296703317" y="316.0" />
+      <point x="10.076923076922867" y="38.0" />
+    </edge>
+    <edge source="EUComponentFactory" target="EUCamera">
+      <point x="-21.107142857142662" y="-93.5" />
+      <point x="1269.4221500586807" y="793.0" />
+      <point x="1738.2518203883508" y="793.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="EUMarket" target="Markets">
+      <point x="61.875" y="-38.5" />
+      <point x="2096.6126262491566" y="2070.0" />
+      <point x="2678.029292915823" y="2070.0" />
+      <point x="-74.25" y="38.0" />
+    </edge>
+    <edge source="EUComponentFactory" target="EUBattery">
+      <point x="63.32142857142844" y="-93.5" />
+      <point x="1353.8507214872518" y="993.0" />
+      <point x="3803.068848020914" y="993.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="Markets" target="Phone">
+      <point x="-12.375" y="-38.0" />
+      <point x="2739.904292915823" y="1591.0" />
+      <point x="2445.4938097905338" y="1591.0" />
+      <point x="104.0" y="204.0" />
+    </edge>
+    <edge source="Main" target="GlobalMarket">
+      <point x="-12.5" y="-27.0" />
+      <point x="2728.341792915823" y="2257.0" />
+      <point x="2655.154292915823" y="2257.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="TurkeyMarket" target="MaximumEffortModel">
+      <point x="12.375" y="-38.5" />
+      <point x="0.0" y="104.5" />
+    </edge>
+    <edge source="PhoneComponentFactory" target="Camera">
+      <point x="-18.0" y="-93.5" />
+      <point x="2071.251820388351" y="376.0" />
+      <point x="2054.6442307692323" y="376.0" />
+      <point x="10.076923076922867" y="38.0" />
+    </edge>
+    <edge source="GlobalDisplay" target="Display">
+      <point x="-38.0" y="-27.0" />
+      <point x="3597.068848020914" y="116.0" />
+      <point x="2738.6126373626394" y="116.0" />
+      <point x="40.30769230769232" y="38.0" />
+    </edge>
+    <edge source="EUComponentFactory" target="EUStorage">
+      <point x="-49.25" y="-93.5" />
+      <point x="1241.2792929158234" y="1103.0" />
+      <point x="531.653846153848" y="1103.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="GlobalComponentFactory" target="Battery">
+      <point x="56.0" y="-93.5" />
+      <point x="3089.048523685054" y="1043.0" />
+      <point x="4067.645771097838" y="1043.0" />
+      <point x="4067.645771097838" y="296.0" />
+      <point x="3996.0741758241784" y="296.0" />
+      <point x="30.23076923076951" y="38.0" />
+    </edge>
+    <edge source="GlobalMarket" target="IflasDeluxeModel">
+      <point x="-86.625" y="-38.5" />
+      <point x="2568.529292915823" y="1990.0" />
+      <point x="1904.19595958249" y="1990.0" />
+      <point x="95.66666666666674" y="104.5" />
+    </edge>
+    <edge source="Main" target="Models">
+      <point x="62.5" y="-27.0" />
+      <point x="2803.341792915823" y="2277.0" />
+      <point x="4871.399617251684" y="2277.0" />
+      <point x="4871.399617251684" y="1721.0" />
+      <point x="4928.399617251684" y="1721.0" />
+      <point x="67.59999999999991" y="71.5" />
+    </edge>
+    <edge source="EUDisplay" target="Display">
+      <point x="-30.0" y="-27.0" />
+      <point x="3114.798523685054" y="206.0" />
+      <point x="2647.9203296703317" y="206.0" />
+      <point x="-50.38461538461539" y="38.0" />
+    </edge>
+    <edge source="TurkeyComponentFactory" target="Camera">
+      <point x="-24.0" y="-93.5" />
+      <point x="1497.0292929158234" y="813.0" />
+      <point x="1970.7518203883508" y="813.0" />
+      <point x="1970.7518203883508" y="376.0" />
+      <point x="2044.5673076923097" y="376.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="EUMarket" target="Phone">
+      <point x="37.125" y="-38.5" />
+      <point x="2071.8626262491566" y="2050.0" />
+      <point x="2618.154292915823" y="2050.0" />
+      <point x="2618.154292915823" y="1651.0" />
+      <point x="2367.4938097905338" y="1651.0" />
+      <point x="26.0" y="204.0" />
+    </edge>
+    <edge source="GlobalComponentFactory" target="Camera">
+      <point x="8.0" y="-93.5" />
+      <point x="3041.048523685054" y="893.0" />
+      <point x="3074.298523685054" y="893.0" />
+      <point x="3074.298523685054" y="216.0" />
+      <point x="2105.0288461538485" y="216.0" />
+      <point x="60.46153846153857" y="38.0" />
+    </edge>
+    <edge source="GlobalComponentFactory" target="Storage">
+      <point x="-56.0" y="-93.5" />
+      <point x="2977.048523685054" y="633.0" />
+      <point x="1658.7518203883508" y="633.0" />
+      <point x="1658.7518203883508" y="306.0" />
+      <point x="689.7011762509358" y="306.0" />
+      <point x="50.384615384615245" y="38.0" />
+    </edge>
+    <edge source="Main" target="TurkeyMarket">
+      <point x="-37.5" y="-27.0" />
+      <point x="2703.341792915823" y="2267.0" />
+      <point x="2437.154292915823" y="2267.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="GlobalCase" target="Case">
+      <point x="32.0" y="-27.0" />
+      <point x="397.5769230769238" y="326.0" />
+      <point x="208.20758428464933" y="326.0" />
+      <point x="40.30769230769192" y="38.0" />
+    </edge>
+    <edge source="TurkeyMarket" target="I_I_Aman_IflasModel">
+      <point x="-12.375" y="-38.5" />
+      <point x="2424.779292915823" y="2000.0" />
+      <point x="2123.029292915823" y="2000.0" />
+      <point x="0.0" y="104.5" />
+    </edge>
+    <edge source="EUComponentFactory" target="EUCase">
+      <point x="-77.39285714285734" y="-93.5" />
+      <point x="1213.136435772966" y="1123.0" />
+      <point x="70.57692307692378" y="1123.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="TurkeyComponentFactory" target="TurkeyCPU_RAM">
+      <point x="88.0" y="-93.5" />
+      <point x="1609.0292929158234" y="1083.0" />
+      <point x="4475.1457710978375" y="1083.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="EUMarket" target="Models">
+      <point x="86.625" y="-38.5" />
+      <point x="2121.3626262491566" y="2120.0" />
+      <point x="4732.083139069669" y="2120.0" />
+      <point x="4732.083139069669" y="1721.0" />
+      <point x="4826.999617251684" y="1721.0" />
+      <point x="-33.80000000000018" y="71.5" />
+    </edge>
+    <edge source="TurkeyComponentFactory" target="TurkeyCamera">
+      <point x="-40.0" y="-93.5" />
+      <point x="1481.0292929158234" y="803.0" />
+      <point x="1888.2518203883508" y="803.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="Markets" target="Storage">
+      <point x="-61.875" y="-38.0" />
+      <point x="2690.404292915823" y="1611.0" />
+      <point x="451.0769230769247" y="1611.0" />
+      <point x="451.0769230769247" y="336.0" />
+      <point x="578.855022404782" y="336.0" />
+      <point x="-60.46153846153857" y="38.0" />
+    </edge>
+    <edge source="GlobalMarket" target="Models">
+      <point x="86.625" y="-38.5" />
+      <point x="2741.779292915823" y="2140.0" />
+      <point x="4860.399617251684" y="2140.0" />
+      <point x="4860.399617251684" y="1711.0" />
+      <point x="4894.599617251684" y="1711.0" />
+      <point x="33.80000000000018" y="71.5" />
+    </edge>
+    <edge source="EUCPU_RAM" target="CPU_RAM">
+      <point x="-31.75" y="-27.0" />
+      <point x="4282.8957710978375" y="346.0" />
+      <point x="4459.824175824178" y="346.0" />
+      <point x="-50.38461538461536" y="38.0" />
+    </edge>
+    <edge source="TurkeyComponentFactory" target="TurkeyBattery">
+      <point x="72.0" y="-93.5" />
+      <point x="1593.0292929158234" y="1013.0" />
+      <point x="3960.068848020914" y="1013.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="Phone" target="Camera">
+      <point x="-22.0" y="-204.0" />
+      <point x="2319.4938097905338" y="683.0" />
+      <point x="2207.751820388351" y="683.0" />
+      <point x="2207.751820388351" y="256.0" />
+      <point x="2064.721153846156" y="256.0" />
+      <point x="20.15384615384619" y="38.0" />
+    </edge>
+    <edge source="TurkeyMarket" target="TurkeyComponentFactory">
+      <point x="-86.625" y="-38.5" />
+      <point x="2350.529292915823" y="2030.0" />
+      <point x="1521.0292929158234" y="2030.0" />
+      <point x="0.0" y="93.5" />
+    </edge>
+    <edge source="TurkeyStorage" target="Storage">
+      <point x="38.0" y="-27.0" />
+      <point x="726.653846153848" y="366.0" />
+      <point x="639.3165608663205" y="366.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="EUComponentFactory" target="PhoneComponentFactory">
+      <point x="7.035714285714221" y="-93.5" />
+      <point x="1297.5650072015376" y="833.0" />
+      <point x="2006.174897311428" y="833.0" />
+      <point x="-83.07692307692287" y="93.5" />
+    </edge>
+    <edge source="TurkeyCamera" target="Camera">
+      <point x="36.0" y="-27.0" />
+      <point x="1924.2518203883508" y="366.0" />
+      <point x="2034.4903846153868" y="366.0" />
+      <point x="-10.076923076922867" y="38.0" />
+    </edge>
+    <edge source="I_I_Aman_IflasModel" target="PhoneComponentFactory">
+      <point x="-100.66666666666674" y="-104.5" />
+      <point x="2022.3626262491566" y="1681.0" />
+      <point x="2073.966792915823" y="1681.0" />
+      <point x="2073.966792915823" y="893.0" />
+      <point x="2105.8672050037358" y="893.0" />
+      <point x="16.615384615384755" y="93.5" />
+    </edge>
+    <edge source="GlobalComponentFactory" target="GlobalCase">
+      <point x="-104.0" y="-93.5" />
+      <point x="2929.048523685054" y="663.0" />
+      <point x="365.5769230769238" y="663.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="EUCamera" target="Camera">
+      <point x="29.0" y="-27.0" />
+      <point x="1767.2518203883508" y="346.0" />
+      <point x="2014.3365384615406" y="346.0" />
+      <point x="-30.230769230769056" y="38.0" />
+    </edge>
+    <edge source="TurkeyComponentFactory" target="TurkeyDisplay">
+      <point x="24.0" y="-93.5" />
+      <point x="1545.0292929158234" y="923.0" />
+      <point x="3301.798523685054" y="923.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="Markets" target="Camera">
+      <point x="-37.125" y="-38.0" />
+      <point x="2715.154292915823" y="1601.0" />
+      <point x="959.1538461538482" y="1601.0" />
+      <point x="959.1538461538482" y="316.0" />
+      <point x="1984.105769230771" y="316.0" />
+      <point x="-60.46153846153857" y="38.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6000000000000001" x="2191.833333333333" y="1231.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>Project Files</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

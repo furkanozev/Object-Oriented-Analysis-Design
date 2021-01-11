@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="HiTechTrafficLight:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/HiTechTrafficLight_jar</output-path>
+    <root id="archive" name="HiTechTrafficLight.jar">
+      <element id="module-output" name="HiTechTrafficLight" />
+    </root>
+  </artifact>
+</component>

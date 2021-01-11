@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="203.0" y="170.0">RedState</node>
+    <node x="263.5" y="438.0">TrafficLight</node>
+    <node x="403.0" y="170.0">GreenState</node>
+    <node x="379.98295454545456" y="0.0">State</node>
+    <node x="0.0" y="170.0">YellowState</node>
+    <node x="278.0" y="742.0">Main</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="TrafficLight" target="RedState">
+      <point x="-32.54545454545456" y="-127.0" />
+      <point x="320.45454545454544" y="388.0" />
+      <point x="233.0" y="388.0" />
+      <point x="-60.0" y="94.0" />
+    </edge>
+    <edge source="GreenState" target="State">
+      <point x="0.0" y="-94.0" />
+      <point x="493.0" y="150.0" />
+      <point x="469.98295454545456" y="150.0" />
+      <point x="0.0" y="60.0" />
+    </edge>
+    <edge source="GreenState" target="TrafficLight">
+      <point x="0.0" y="94.0" />
+      <point x="493.0" y="388.0" />
+      <point x="385.54545454545456" y="388.0" />
+      <point x="32.54545454545456" y="-127.0" />
+    </edge>
+    <edge source="TrafficLight" target="GreenState">
+      <point x="16.272727272727252" y="-127.0" />
+      <point x="369.27272727272725" y="378.0" />
+      <point x="433.0" y="378.0" />
+      <point x="-60.0" y="94.0" />
+    </edge>
+    <edge source="TrafficLight" target="State">
+      <point x="81.36363636363637" y="-127.0" />
+      <point x="434.3636363636364" y="418.0" />
+      <point x="604.5" y="418.0" />
+      <point x="604.5" y="140.0" />
+      <point x="541.9829545454545" y="140.0" />
+      <point x="71.99999999999994" y="60.0" />
+    </edge>
+    <edge source="Main" target="TrafficLight">
+      <point x="-37.5" y="-27.0" />
+      <point x="315.5" y="717.0" />
+      <point x="308.25" y="717.0" />
+      <point x="-44.75" y="127.0" />
+    </edge>
+    <edge source="RedState" target="State">
+      <point x="0.0" y="-94.0" />
+      <point x="293.0" y="150.0" />
+      <point x="433.98295454545456" y="150.0" />
+      <point x="-36.0" y="60.0" />
+    </edge>
+    <edge source="RedState" target="TrafficLight">
+      <point x="0.0" y="94.0" />
+      <point x="293.0" y="378.0" />
+      <point x="336.72727272727275" y="378.0" />
+      <point x="-16.272727272727252" y="-127.0" />
+    </edge>
+    <edge source="YellowState" target="TrafficLight">
+      <point x="0.0" y="94.0" />
+      <point x="91.5" y="408.0" />
+      <point x="287.9090909090909" y="408.0" />
+      <point x="-65.09090909090912" y="-127.0" />
+    </edge>
+    <edge source="YellowState" target="State">
+      <point x="0.0" y="-94.0" />
+      <point x="91.5" y="140.0" />
+      <point x="397.98295454545456" y="140.0" />
+      <point x="-72.0" y="60.0" />
+    </edge>
+    <edge source="TrafficLight" target="YellowState">
+      <point x="-81.36363636363637" y="-127.0" />
+      <point x="271.6363636363636" y="418.0" />
+      <point x="30.5" y="418.0" />
+      <point x="-61.0" y="94.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.821078431372549" x="302.5" y="398.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>Project Files</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
