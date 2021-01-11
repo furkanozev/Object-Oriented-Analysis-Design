@@ -1,4 +1,4 @@
-# Introduction to Algorithms
+# Object Oriented Analysis and Design
 
 These codes are my submissions for CSE443 - Object Oriented Analysis and Design course at Gebze Technical University.
 
