@@ -21,4 +21,7 @@ MIDTERM: <br />
 	PART4 -> Template Method Design Pattern <br />
 <br />
 FINAL: <br />
-	??? <br />
+Composite Design Pattern <br />
+Strategy Design Pattern <br />
+Mediator Design Pattern <br />
+<br />
